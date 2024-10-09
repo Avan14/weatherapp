@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #222;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 80vw;
+    height: 85vh;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    padding: 1px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #07a7f7bd, #04b97d);
+}
+
+.search {
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 30px;
+    height: 60px;
+    width: 80%;
+    margin: 25px 150px 10px 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search>input {
+    border: none;
+    outline: none;
+    width: 80%;
+    font-size: 2rem;
+    background: none;
+    color: #343434;
+
+}
+
+.search button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search button>img {
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.search button>img:hover {
+    transform: scale(1.1);
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather img {
+    width: 350px;
+}
+
+.temp {
+    font-size: 102px;
+    margin: auto;
+}
+
+.city {
+    font-size: 74px;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 60%;
+    margin-left: 120px;
+}
+
+.details .humidity,
+.details .windspeed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Humidity-info,
+.windspeed-info {
+    display: flex;
+}
+
+.details img {
+    width: 90px;
+    margin-right: 10px;
+}
+
+.info-a {
+    font-size: 38px;
+    color: #f7f4f4;
+}
+
+.info-b {
+    font-size: 24px;
+}

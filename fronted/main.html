@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title  -->
+    <title>Weather</title>
+    <!-- fav  -->
+    <link rel="shortcut icon" href="favicon/icons8-cloud-windows-11-color-32.png" type="image/x-icon">
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <main>
+        <div class="card">
+            <div class="search">
+                <input class="searchbox" type="text " placeholder="Enter your city name ">
+                <button class="searchbutton">
+                    <img src="weather-app-img/images/search.png" alt="">
+
+                </button>
+            </div>
+            <div class="weather">
+                <img class="weather-img" src="weather-app-img/images/clouds.png" alt="">
+                <h1 class="temp">27°C</h1>
+                <h2 class="city">Bilaspur</h2>
+                <div class="details">
+                    <div class="windspeed">
+                        <div class="windspeed-info">
+                            <div class="img">
+                                <img src="weather-app-img/images/humidity.png" alt="">
+
+                            </div>
+                            <div class="info-per">
+                                <div class="info-a humidity-per">99%</div>
+                                <div class="info-b">Humidity</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="humidity">
+                        <div class="Humidity-info">
+                            <div class="img">
+                                <img src="weather-app-img/images/wind.png" alt="">
+
+                            </div>
+                            <div class="info-per">
+                                <div class="info-a wind-speed">0.74 Kmph</div>
+                                <div class="info-b">Wind Speed</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../backend/script.js"></script>
+</body>
+
+</html>
